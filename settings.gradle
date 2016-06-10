@@ -1,0 +1,4 @@
+rootProject.name = 'spark-playground'
+include 'spark-ml',
+    'spark-batch',
+    'spark-streaming'
