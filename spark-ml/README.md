@@ -9,11 +9,11 @@ Spark Machine Learning examples.
 ### Build
 
 ```bash
-gradle saprk-batch:installShadow
+gradle spark-ml:installShadow
 ```
 
 ### Run
 
 ```bash
-gradle saprk-batch:run
+gradle spark-ml:run
 ```

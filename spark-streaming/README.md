@@ -9,11 +9,11 @@ Spark Streaming examples.
 ### Build
 
 ```bash
-gradle saprk-batch:installShadow
+gradle spark-streaming:installShadow
 ```
 
 ### Run
 
 ```bash
-gradle saprk-batch:run
+gradle spark-streaming:run
 ```

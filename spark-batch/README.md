@@ -9,11 +9,11 @@ Spark Batch examples.
 ### Build
 
 ```bash
-gradle saprk-batch:installShadow
+gradle spark-batch:installShadow
 ```
 
 ### Run
 
 ```bash
-gradle saprk-batch:run
+gradle spark-batch:run
 ```
