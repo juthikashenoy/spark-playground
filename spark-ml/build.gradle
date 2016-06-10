@@ -1,0 +1,28 @@
+plugins {
+    id "com.zoltu.kotlin" version "1.0.2"
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+    maven {
+        name "jebrains-all"
+        url "http://repository.jetbrains.com/all"
+    }
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    // Spark dependencies. compileOnly & testCompile because they are provided by Zeppelin.
+    compileOnly "org.apache.spark:spark-core_2.11:$sparkVersion"
+//    compileOnly "org.apache.spark:spark-sql_2.11:$sparkVersion"
+//    compileOnly "org.apache.spark:spark-streaming_2.11:$sparkVersion"
+//    compileOnly "org.apache.spark:spark-mllib_2.11:$sparkVersion"
+
+    testCompile "com.nhaarman:mockito-kotlin:$mockitoKotlinVersion"
+    testCompile "org.jetbrains.spek:spek:$spekVersion"
+}
+
+mainClassName = "com.sumo.experiments.WordCount"
