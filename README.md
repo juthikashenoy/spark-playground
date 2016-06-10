@@ -1,8 +1,8 @@
-ML Experiments
-==============
+Spark Playground
+================
 Sumo Apache Spark playground
 
-###  Experiments
+###  Examples
 1. Spark Batch
 2. Spark Streaming
 3. Spark Machine Learning
