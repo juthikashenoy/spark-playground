@@ -1,6 +1,6 @@
-Apache Spark Batch
-==================
-Spark Batch examples.
+Apache Spark Machine Learning
+=============================
+Spark Machine Learning examples.
 
 * TwitterLanguageAnalyzer
 * TwitterSentimentAnalyzer

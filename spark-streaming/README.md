@@ -1,6 +1,6 @@
-Apache Spark Batch
-==================
-Spark Batch examples.
+Apache Spark Streaming
+======================
+Spark Streaming examples.
 
 * TwitterLanguageAnalyzer
 * TwitterSentimentAnalyzer
