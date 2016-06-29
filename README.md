@@ -14,4 +14,15 @@ Sumo Apache Spark playground
 
 #### Run Local
 
-#### Run in Cluster
+#### Run on Cluster
+
+> Execute on Spark Cluster, Kotlin maven coordinates must be passed so its classes can be used
+```bash
+$SPARK_HOME/bin/spark-submit \
+    --class com.sumo.experiments.WordCount \
+    --master local[4] \
+    --packages "org.jetbrains.kotlin:kotlin-stdlib:1.0.2" \
+    target/spark-batch-0.1.0-SNAPSHOT-all.jar
+```
+
+
