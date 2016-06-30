@@ -4,6 +4,7 @@
 logs
 *.log
 NOTES.md
+output/
 
 ### Gradle ###
 .gradle
