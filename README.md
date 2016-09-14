@@ -51,7 +51,7 @@ In IDEs like IntelliJ, you can right-click the file and run directly.
 $SPARK_HOME/bin/spark-submit \
     --class com.sumo.experiments.WordCount \
     --master local[4] \
-    --packages "org.jetbrains.kotlin:kotlin-stdlib:1.0.2" \
+    --packages "org.jetbrains.kotlin:kotlin-stdlib:1.0.3" \
     {sub-project}/build/installShadow/{sub-project}/lib/{sub-project}-0.1.0-SNAPSHOT-all.jar
 ```
 
