@@ -17,7 +17,7 @@ Sumo Apache Spark playground
     Install spark e.g., *spark-1.6.2-bin-hadoop2.6*
     `export SPARK_HOME=/Developer/Applications/spark-1.6.2-bin-hadoop2.6`
 
-#### Install via brew (Max)
+#### Install via brew (Mac)
 ```bash
 brew update
 brew install scala
@@ -39,6 +39,7 @@ gradle installShadowApp
 
 ```
 gradle {sub-project}:run
+gradle spark-batch:run
 ```
 
 In IDEs like IntelliJ, you can right-click the file and run directly.

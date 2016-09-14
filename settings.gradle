@@ -1,4 +1,10 @@
+pluginRepositories {
+    maven {
+        url 'https://dl.bintray.com/kotlin/kotlin-eap-1.1'
+    }
+    gradlePluginPortal()
+}
 rootProject.name = 'spark-playground'
-include 'spark-ml',
-    'spark-batch',
-    'spark-streaming'
+include 'spark-ml'
+include 'spark-batch'
+include 'spark-streaming'
